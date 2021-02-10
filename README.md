@@ -2,6 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+```
+module.exports = {
+   extends: ['airbnb-typescript'],
+   parserOptions: {
+     project: './tsconfig.json',
+   }
+};
+```
+### Backend
+
+- SpringBoot
+- Spring Security + JWT
+- Docker
+- Docker compose
+- PostgreSQL
+- Lombok
+- Mapstruct
+- Spring Data JPA
+- H2 in-memory DB
+- Mockito
+- MockMvc
+- Flyway
+
 ## Available Scripts
 
 In the project directory, you can run:
