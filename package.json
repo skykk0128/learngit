@@ -19,12 +19,6 @@
     "eject": "react-scripts eject",
     "linkfile": "cp githooks/commit-msg .git/hooks/ & rm -f .git/hooks/commit-msg.sample"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "CI=true react-scripts test",
-      "pre-push": "CI=true react-scripts test"
-    }
-  },
   "eslintConfig": {
     "extends": [
       "react-app",

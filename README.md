@@ -11,17 +11,22 @@ module.exports = {
 };
 ```
 ### Backend
-
-- SpringBoot
-- Spring Security + JWT
+  "husky": {
+    "hooks": {
+      "pre-commit": "CI=true react-scripts test",
+      "pre-push": "CI=true react-scripts test"
+    }
+  },
+- SpringBoottest
+- Spring Security + JWTtest
 - Docker
-- Docker compose
+- Docker composetest
 - PostgreSQL
-- Lombok
-- Mapstruct
+- Lomboktest
+- Mapstructtest
 - Spring Data JPA
 - H2 in-memory DB
-- Mockito
+- Mockitotest
 - MockMvc
 - Flyway
 
