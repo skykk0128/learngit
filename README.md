@@ -2,6 +2,34 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+```
+module.exports = {
+   extends: ['airbnb-typescript'],
+   parserOptions: {
+     project: './tsconfig.json',
+   }
+};
+```
+### Backend
+  "husky": {
+    "hooks": {
+      "pre-commit": "CI=true react-scripts test",
+      "pre-push": "CI=true react-scripts test"
+    }
+  },
+- SpringBoottest
+- Spring Security + JWTtest
+- Docker
+- Docker composetest
+- PostgreSQL
+- Lomboktest
+- Mapstructtest
+- Spring Data JPA
+- H2 in-memory DB
+- Mockitotest
+- MockMvc
+- Flyway
+
 ## Available Scripts
 
 In the project directory, you can run:
